@@ -10,7 +10,7 @@ import Test from './components/test/Test'
 import { Provider } from './context';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { publicDecrypt } from 'crypto';
+//import { publicDecrypt } from 'crypto';
 
 class App extends Component {
   render() {

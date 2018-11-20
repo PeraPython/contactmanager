@@ -78,7 +78,7 @@ class AddContact extends Component {
                                         label="Email"
                                         name="email"
                                         type="email"
-                                        placeholder="Enter Email"
+                                        placeholder="Enter Nesto drugo"
                                         value={email}
                                         onChange={this.onChange}
                                         error={errors.email}
