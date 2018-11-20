@@ -10,12 +10,13 @@ import Test from './components/test/Test'
 import { Provider } from './context';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { publicDecrypt } from 'crypto';
 
 class App extends Component {
   render() {
     return (
       <Provider>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div className="App">
             <Header branding="Contact Manager" />
             <div className="container">
